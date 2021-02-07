@@ -1,0 +1,179 @@
+{
+    "b5container": {
+        "prefix": "b5container",
+        "body": [
+            "<div class=\"container\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5container-fluid": {
+        "prefix": "b5container-fluid",
+        "body": [
+            "<div class=\"container-fluid\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5container-responsive": {
+        "prefix": "b5container-responsive",
+        "body": [
+            "<div class=\"container-${1:sm}\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5row": {
+        "prefix": "b5row",
+        "body": [
+            "<div class=\"row\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-1": {
+        "prefix": "b5col1",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-1\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-2": {
+        "prefix": "b5col2",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-2\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-3": {
+        "prefix": "b5col3",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-3\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-4": {
+        "prefix": "b5col4",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-4\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-5": {
+        "prefix": "b5col5",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-5\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-6": {
+        "prefix": "b5col6",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-6\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-7": {
+        "prefix": "b5col7",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-7\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-8": {
+        "prefix": "b5col8",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-8\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-9": {
+        "prefix": "b5col9",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-9\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-10": {
+        "prefix": "b5col10",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-10\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-11": {
+        "prefix": "b5col11",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-11\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-12": {
+        "prefix": "b5col12",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-12\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5col-auto": {
+        "prefix": "b5colauto",
+        "body": [
+            "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-auto\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5img": {
+        "prefix": "b5img",
+        "body": "<img src=\"$2\" class=\"img-fluid${1: rounded}\" alt=\"$3\">$0"
+    },
+    "b5table": {
+        "prefix": "b5table",
+        "body": [
+            "<table class=\"table ${1| ,table-striped,table-hover,table-bordered,table-borderless,table-sm,table-light,table-dark|}\">",
+            "\t$0",
+            "</table>"
+        ]
+    },
+    "b5fcinput": {
+        "prefix": "b5fcinput",
+        "body": [
+            "<div class=\"mb-${1:3}\">",
+            "\t<label for=\"$4\" class=\"form-label\">$2</label>",
+            "\t<input class=\"form-control\" id=\"$4\" type=\"${3|text,email,date,number,password,search,tel,file,time|}\" placeholder=\"$5\" aria-label=\"$2\">",
+            "</div>"
+        ]
+    },
+    "b5fctextarea": {
+        "prefix": "b5fctextarea",
+        "body": [
+            "<div class=\"mb-${1:3}\">",
+            "\t<label for=\"$3\" class=\"form-label\">$2</label>",
+            "\t<textarea class=\"form-control\" id=\"$3\" rows=\"${4:3}\" aria-label=\"$2\"></textarea>",
+            "</div>"
+        ]
+    },
+    "b5fccheck": {
+        "prefix": ["b5fccheck", "b5fcradio"],
+        "body": [
+            "<div class=\"form-check${1: form-check-inline}\">",
+            "\t<input class=\"form-check-input\" type=\"${2|checkbox,radio|}\" value=\"$3\" id=\"$5\">",
+            "\t<label class=\"form-check-label\" for=\"$5\">",
+            "\t\t$4",
+            "\t</label>",
+            "</div>"
+        ]
+    },
+}
