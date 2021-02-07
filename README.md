@@ -2,8 +2,8 @@
 
 ## Supported snippets
 
-**b5container**  
-Expand to a bootstrap container  
+b5**container**  
+*Expand to a bootstrap container*  
   
 **b5container-fluid**  
 Expand to a bootstrap fluid container  
