@@ -121,3 +121,33 @@ b5**listgroupitem**
   
 b5**listgroupitemlink**  
 *Expand to a bootstrap list group item link*  
+  
+b5**modal**  
+*Expand to a bootstrap modal*  
+  
+b5**nav**  
+*Expand to a bootstrap nav*  
+  
+b5**navitem**  
+*Expand to a bootstrap nav item*  
+  
+b5**pagination**  
+*Expand to a bootstrap pagination*  
+  
+b5**paginationicons**  
+*Expand to a bootstrap pagination with icons*  
+  
+b5**progressbar**  
+*Expand to a bootstrap progressbar*  
+  
+b5**spinner**  
+*Expand to a bootstrap spinner*  
+  
+b5**toast**  
+*Expand to a bootstrap toast*  
+  
+b5**coloredlink**  
+*Expand to a bootstrap colored link*  
+  
+b5**ratio**  
+*Expand to a bootstrap ratio div*  

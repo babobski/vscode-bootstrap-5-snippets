@@ -401,4 +401,120 @@
         "prefix": "b5listgroupitemlink",
         "body": "<a href=\"$2\" class=\"list-group-item list-group-item-action\">$1</a>$0"
     },
+    "b5modal": {
+        "prefix": "b5modal",
+        "body": [
+            "<div class=\"modal fade\" id=\"$1\" tabindex=\"-1\" aria-labelledby=\"$1Label\" aria-hidden=\"true\">",
+            "\t<div class=\"modal-dialog\">",
+            "\t\t<div class=\"modal-content\">",
+            "\t\t\t<div class=\"modal-header\">",
+            "\t\t\t\t<h5 class=\"modal-title\" id=\"$1Label\">$2</h5>",
+            "\t\t\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+            "\t\t\t</div>",
+            "\t\t\t<div class=\"modal-body\">",
+            "\t\t\t\t$3",
+            "\t\t\t</div>",
+            "\t\t\t<div class=\"modal-footer\">",
+            "\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">${4:CLose}</button>",
+            "\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">${5:Save changes}</button>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t</div>",
+            "</div>"
+        ]
+    },
+    "b5nav": {
+        "prefix": "b5nav",
+        "body": [
+            "<ul class=\"nav ${1| ,nav-tabs,nav-pills,nav-fill,nav-justified,flex-column|}\">",
+            "\t<li class=\"nav-item\">",
+            "\t\t<a class=\"nav-link${2: active}\" href=\"$3\">$4</a>$0",
+            "\t</li>",
+            "</ul>"
+        ]
+    },
+    "b5navitem": {
+        "prefix": "b5navitem",
+        "body": [
+            "<li class=\"nav-item\">",
+            "\t<a class=\"nav-link\" href=\"$1\">$2</a>$0",
+            "</li>",
+        ]
+    },
+    "b5pagination": {
+        "prefix": "b5pagination",
+        "body": [
+            "<nav aria-label=\"$1\">",
+            "\t<ul class=\"pagination\">",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">${2:Previous}</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">${3:Next}</a></li>",
+            "\t</ul>",
+            "</nav>",
+        ]
+    },
+    "b5paginationicons": {
+        "prefix": "b5paginationicons",
+        "body": [
+            "<nav aria-label=\"$1\">",
+            "\t<ul class=\"pagination\">",
+            "\t\t<li class=\"page-item\">",
+            "\t\t\t<a class=\"page-link\" href=\"#\" aria-label=\"${1:Previous}\">",
+            "\t\t\t\t<span aria-hidden=\"true\">&laquo;</span>",
+            "\t\t\t</a>",
+            "\t\t</li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+            "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+            "\t\t<li class=\"page-item\">",
+            "\t\t\t<a class=\"page-link\" href=\"#\" aria-label=\"${2:Next}\">",
+            "\t\t\t\t<span aria-hidden=\"true\">&raquo;</span>",
+            "\t\t\t</a>",
+            "\t\t</li>",
+            "\t</ul>",
+            "</nav>",
+        ]
+    },
+    "b5progressbar": {
+        "prefix": "b5progressbar",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar bg-${1|primary,secondary,success,danger,warning,info,light,dark|}${2: progress-bar-striped}\" role=\"progressbar\" style=\"width: $3%;\" aria-valuenow=\"$3\" aria-valuemin=\"0\" aria-valuemax=\"100\">$3%</div>",
+            "</div>",
+        ]
+    },
+    "b5spiner": {
+        "prefix": "b5spiner",
+        "body": [
+            "<div class=\"spinner-${1|border,grow|} text-${2|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${3:Loading...}</span>",
+            "</div>",
+        ]
+    },
+    "b5toast": {
+        "prefix": "b5toast",
+        "body": [
+            "<div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+            "\t<div class=\"toast-header\">",
+            "\t\t<img src=\"${1:...}\" class=\"rounded me-2\" alt=\"${2:...}\">",
+            "\t\t<strong class=\"me-auto\">${3:Bootstrap}</strong>",
+            "\t\t<small>${4:11 mins ago}</small>",
+            "\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"${5:Close}\"></button>",
+            "\t</div>",
+            "\t<div class=\"toast-body\">",
+            "\t\t${6:Hello, world! This is a toast message.}",
+            "\t</div>",
+            "</div>",
+        ]
+    },
+    "b5coloredlink": {
+        "prefix": "b5coloredlink",
+        "body": "<a href=\"#$3\" class=\"link-${1|primary,secondary,success,danger,warning,info,light,dark|}\">$2</a>$0"
+    },
+    "b5ratio": {
+        "prefix": "b5ratio",
+        "body": "<div class=\"ratio ratio-${1|1x1,4x3,16x9,21x9|}\">$0</div>"
+    },
 }
