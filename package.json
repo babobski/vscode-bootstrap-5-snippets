@@ -2,6 +2,8 @@
     "name": "bootstrap-5-snippets",
     "displayName": "Bootstrap 5 Snippets",
     "description": "Bootstrap 5 code snippets",
+    "publisher": "babobski",
+    "icon": "images/icon.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.53.0"

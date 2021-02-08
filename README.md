@@ -64,3 +64,60 @@ b5**btnlink**
   
 b5**btngroup**  
 *Expand to a bootstrap button group*  
+  
+b5**card**  
+*Expand to a bootstrap card*  
+  
+b5**cardheader**  
+*Expand to a bootstrap card header*  
+  
+b5**cardbody**  
+*Expand to a bootstrap card body*  
+  
+b5**cardtitle**  
+*Expand to a bootstrap card title*  
+  
+b5**cardsubtitle**  
+*Expand to a bootstrap card sub title*  
+  
+b5**cardlink**  
+*Expand to a bootstrap card link*  
+  
+b5**cardimage**  
+*Expand to a bootstrap card image*  
+  
+b5**cardtext**  
+*Expand to a bootstrap card text*  
+  
+b5**cardclosebtn**  
+*Expand to a bootstrap close button*  
+  
+b5**collapselink**  
+*Expand to a bootstrap collapse link*  
+  
+b5**collapsebtn**  
+*Expand to a bootstrap collapse button*  
+  
+b5**collapse**  
+*Expand to a bootstrap collapse area*  
+  
+b5**dropdownbtn**  
+*Expand to a bootstrap dropdown button*  
+  
+b5**dropdownlink**  
+*Expand to a bootstrap dropdown button build with an `a` element*  
+  
+b5**dropdownitem**  
+*Expand to a bootstrap dropdown item*  
+  
+b5**listgroup**  
+*Expand to a bootstrap list group*  
+  
+b5**b5listgrouplink**  
+*Expand to a bootstrap list group with `a` elements*  
+  
+b5**listgroupitem**  
+*Expand to a bootstrap list group item*  
+  
+b5**listgroupitemlink**  
+*Expand to a bootstrap list group item link*  

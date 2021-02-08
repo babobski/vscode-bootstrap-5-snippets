@@ -267,4 +267,138 @@
             "</div>"
         ]
     },
+    "b5card": {
+        "prefix": "b5card",
+        "body": [
+            "<div class=\"card\">",
+            "\t$2",
+            "</div>"
+        ]
+    },
+    "b5cardheader": {
+        "prefix": "b5cardheader",
+        "body": [
+            "<div class=\"card-header\">",
+            "\t$2",
+            "</div>"
+        ]
+    },
+    "b5cardbody": {
+        "prefix": "b5cardbody",
+        "body": [
+            "<div class=\"card-body\">",
+            "\t$2",
+            "</div>"
+        ]
+    },
+    "b5cardtitle": {
+        "prefix": "b5cardtitle",
+        "body": [
+            "<${1|h1,h2,h3,h4,h5,h6|} class=\"card-title\">",
+            "\t$2",
+            "</$1>"
+        ]
+    },
+    "b5cardsubtitle": {
+        "prefix": "b5cardsubtitle",
+        "body": [
+            "<${1|h1,h2,h3,h4,h5,h6|} class=\"card-subtitle mb-2 text-muted\">",
+            "\t$2",
+            "</$1>"
+        ]
+    },
+    "b5cardlink": {
+        "prefix": "b5cardlink",
+        "body": "<a href=\"$2\" class=\"card-link\">$1</a>"
+    },
+    "b5cardimage": {
+        "prefix": "b5cardimage",
+        "body": "<img src=\"$1\" class=\"card-img-top\" alt=\"$2\">"
+    },
+    "b5cardtext": {
+        "prefix": "b5cardtext",
+        "body": "<p class=\"card-text\">$1</p>"
+    },
+    "b5closebtn": {
+        "prefix": "b5closebtn",
+        "body": "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"></button>$0"
+    },
+    "b5collapselink": {
+        "prefix": "b5collapselink",
+        "body": [
+            "<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" data-bs-toggle=\"collapse\" href=\"#${2:copy this value as collapse id}\" role=\"button\" aria-expanded=\"${3|false,true|}\" aria-controls=\"$2\">",
+            "\t$4",
+            "</a>"
+        ]
+    },
+    "b5collapsebtn": {
+        "prefix": "b5collapsebtn",
+        "body": [
+            "<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#${2:copy this value as collapse id}\" aria-expanded=\"${3|false,true|}\" aria-controls=\"${2:copy this value as collapse id}\">",
+            "\t$4",
+            "</button>"
+        ]
+    },
+    "b5collapse": {
+        "prefix": "b5collapse",
+        "body": [
+            "<div class=\"collapse\" id=\"$CLIPBOARD\">",
+            "\t$1",
+            "</a>"
+        ]
+    },
+    "b5dropdownbtn": {
+        "prefix": "b5dropdownbtn",
+        "body": [
+            "<div class=\"dropdown\">",
+            "\t<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" type=\"button\" id=\"$2\" data-bs-toggle=\"dropdown\" aria-expanded=\"${3|false,true|}\">",
+            "\t\t$4",
+            "\t</button>",
+            "\t<ul class=\"dropdown-menu\" aria-labelledby=\"$2\">",
+            "\t\t$5",
+            "\t</ul>",
+            "</div>"
+        ]
+    },
+    "b5dropdownlink": {
+        "prefix": "b5dropdownlink",
+        "body": [
+            "<div class=\"dropdown\">",
+            "\t<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" href=\"#\" role=\"button\" id=\"$2\" data-bs-toggle=\"dropdown\" aria-expanded=\"${3|false,true|}\">",
+            "\t\t$4",
+            "\t</a>",
+            "\t<ul class=\"dropdown-menu\" aria-labelledby=\"$2\">",
+            "\t\t$5",
+            "\t</ul>",
+            "</div>"
+        ]
+    },
+    "b5dropdownitem": {
+        "prefix": "b5dropdownitem",
+        "body": "<li><a class=\"dropdown-item\" href=\"$1\">$2</a></li>$0"
+    },
+    "b5listgroup": {
+        "prefix": "b5listgroup",
+        "body": [
+            "<ul class=\"list-group${1:  list-group-flush}\">",
+            "\t<li class=\"list-group-item\">$2</li>",
+            "</ul>"
+        ]
+    },
+    "b5listgrouplink": {
+        "prefix": "b5listgrouplink",
+        "body": [
+            "<div class=\"list-group ${1:  list-group-flush}\">",
+            "\t<a href=\"$3\" class=\"list-group-item list-group-item-action\">$2</a>",
+            "</div>"
+        ]
+    },
+    "b5listgroupitem": {
+        "prefix": "b5listgroupitem",
+        "body": "<li class=\"list-group-item\">$1</li>$0"
+    },
+    "b5listgroupitemlink": {
+        "prefix": "b5listgroupitemlink",
+        "body": "<a href=\"$2\" class=\"list-group-item list-group-item-action\">$1</a>$0"
+    },
 }
