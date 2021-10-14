@@ -4,7 +4,7 @@
     "description": "Bootstrap 5 code snippets",
     "publisher": "babobski",
     "icon": "images/icon.png",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.53.0"
     },
