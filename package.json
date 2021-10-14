@@ -3,6 +3,10 @@
     "displayName": "Bootstrap 5 Snippets",
     "description": "Bootstrap 5 code snippets",
     "publisher": "babobski",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/babobski/vscode-bootstrap-5-snippets"
+    },
     "icon": "images/icon.png",
     "version": "0.1.0",
     "engines": {
