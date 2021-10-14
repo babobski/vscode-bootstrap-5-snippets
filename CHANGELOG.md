@@ -7,3 +7,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## 0.0.2
+
+- added icon
+
+## 0.1.0
+
+- added css grid support
+- added offcanvas element
+- added optional collapse-horizontal class
+- added placeholder animation class and element

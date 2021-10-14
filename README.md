@@ -13,9 +13,15 @@ b5**container-responsive**
   
 b5**row**  
 *Expand to a bootstrap row*  
+
+b5**grid**  
+*Expand to a bootstrap grid*  
   
 b5**col-1(-12 or -auto)**  
 *Expand to a bootstrap column with a optional size(-sm, -md)*  
+
+b5**gcol-1(-12 or -auto)**  
+*Expand to a bootstrap grid column with a optional size(-sm, -md)*  
   
 b5**img**  
 *Expand to a bootstrap img with a `.img-fluid` class*  
@@ -99,7 +105,7 @@ b5**collapsebtn**
 *Expand to a bootstrap collapse button*  
   
 b5**collapse**  
-*Expand to a bootstrap collapse area*  
+*Expand to a bootstrap collapse area (with optional collapse-horizontal class)*  
   
 b5**dropdownbtn**  
 *Expand to a bootstrap dropdown button*  
@@ -130,6 +136,15 @@ b5**nav**
   
 b5**navitem**  
 *Expand to a bootstrap nav item*  
+
+b5**b5offcanvasbtn**  
+*Expand to a bootstrap offcanvas button*  
+
+b5**b5offcanvaslink**  
+*Expand to a bootstrap offcanvas link*  
+
+b5**b5offcanvas**  
+*Expand to a bootstrap offcanvas element*  
   
 b5**pagination**  
 *Expand to a bootstrap pagination*  
@@ -137,6 +152,12 @@ b5**pagination**
 b5**paginationicons**  
 *Expand to a bootstrap pagination with icons*  
   
+b5**placeholder**  
+*Expand to a bootstrap placeholder (with optional col, width, bg and sizes class)*  
+
+b5**placeholderclass**  
+*Expand to a bootstrap placeholder animation class (glow or wave)*  
+
 b5**progressbar**  
 *Expand to a bootstrap progressbar*  
   

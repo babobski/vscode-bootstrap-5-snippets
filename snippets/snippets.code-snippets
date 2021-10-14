@@ -31,10 +31,26 @@
             "</div>"
         ]
     },
+    "b5grid": {
+        "prefix": "b5grid",
+        "body": [
+            "<div class=\"grid\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-1": {
         "prefix": "b5col1",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-1\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-1": {
+        "prefix": "b5gcol1",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-1\">",
             "\t$0",
             "</div>"
         ]
@@ -47,10 +63,26 @@
             "</div>"
         ]
     },
+    "b5gcol-2": {
+        "prefix": "b5gcol2",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-2\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-3": {
         "prefix": "b5col3",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-3\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-3": {
+        "prefix": "b5gcol3",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-3\">",
             "\t$0",
             "</div>"
         ]
@@ -63,10 +95,26 @@
             "</div>"
         ]
     },
+    "b5gcol-4": {
+        "prefix": "b5gcol4",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-4\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-5": {
         "prefix": "b5col5",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-5\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-5": {
+        "prefix": "b5gcol5",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-5\">",
             "\t$0",
             "</div>"
         ]
@@ -79,10 +127,26 @@
             "</div>"
         ]
     },
+    "b5gcol-6": {
+        "prefix": "b5gcol6",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-6\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-7": {
         "prefix": "b5col7",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-7\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-7": {
+        "prefix": "b5gcol7",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-7\">",
             "\t$0",
             "</div>"
         ]
@@ -95,10 +159,26 @@
             "</div>"
         ]
     },
+    "b5gcol-8": {
+        "prefix": "b5gcol8",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-8\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-9": {
         "prefix": "b5col9",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-9\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-9": {
+        "prefix": "b5gcol9",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-9\">",
             "\t$0",
             "</div>"
         ]
@@ -111,10 +191,26 @@
             "</div>"
         ]
     },
+    "b5gcol-10": {
+        "prefix": "b5gcol10",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-10\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-11": {
         "prefix": "b5col11",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-11\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-11": {
+        "prefix": "b5gcol11",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-11\">",
             "\t$0",
             "</div>"
         ]
@@ -127,10 +223,26 @@
             "</div>"
         ]
     },
+    "b5gcol-12": {
+        "prefix": "b5gcol12",
+        "body": [
+            "<div class=\"g-col${1| ,-sm,-md,-lg,-xl,-xxl|}-12\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
     "b5col-auto": {
         "prefix": "b5colauto",
         "body": [
             "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-auto\">",
+            "\t$0",
+            "</div>"
+        ]
+    },
+    "b5gcol-auto": {
+        "prefix": "b5gcolauto",
+        "body": [
+            "<div>",
             "\t$0",
             "</div>"
         ]
@@ -342,8 +454,8 @@
     "b5collapse": {
         "prefix": "b5collapse",
         "body": [
-            "<div class=\"collapse\" id=\"$CLIPBOARD\">",
-            "\t$1",
+            "<div class=\"collapse${1: collapse-horizontal}\" id=\"$CLIPBOARD\">",
+            "\t$2",
             "</a>"
         ]
     },
@@ -441,6 +553,38 @@
             "</li>",
         ]
     },
+    "b5offcanvasbtn": {
+        "prefix": "b5offcanvasbtn",
+        "body": [
+            "<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#$2\" aria-controls=\"$2\">",
+            "\t$0",
+            "</button>",
+        ]
+    },
+    "b5offcanvaslink": {
+        "prefix": "b5offcanvaslink",
+        "body": [
+            "<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" data-bs-toggle=\"offcanvas\" href=\"#$2\" role=\"button\" aria-controls=\"$2\">",
+            "\t$0",
+            "</a>",
+        ]
+    },
+    "b5offcanvas": {
+        "prefix": "b5offcanvas",
+        "body": [
+            "<div class=\"offcanvas offcanvas-${1|start,end,top,bottom|}\" tabindex=\"-1\" id=\"$2\" aria-labelledby=\"$3\">",
+            "\t<div class=\"offcanvas-header\">",
+            "\t\t<h5>",
+            "\t\t\t$4",
+            "\t\t</h5>",
+            "\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"${5:Close}\"></button>",
+            "\t</div>",
+            "\t<div class=\"offcanvas-body\">",
+            "\t\t$0",
+            "\t</div>",
+            "</div>",
+        ]
+    },
     "b5pagination": {
         "prefix": "b5pagination",
         "body": [
@@ -475,6 +619,18 @@
             "\t\t</li>",
             "\t</ul>",
             "</nav>",
+        ]
+    },
+    "b5placeholder": {
+        "prefix": "b5placeholder",
+        "body": [
+            "<span class=\"placeholder${1: col-${2| ,-sm,-md,-lg,-xl,-xxl|}-${3|1,2,3,4,5,6,7,8,9,10,11,12|}}${4: w-${5|25,50,75,100,auto|}}${6: bg-${7|primary,secondary,success,danger,warning,info,light,dark|}}${8: placeholder-${9|xs,sm,lg|}}\"></span>",
+        ]
+    },
+    "b5placeholderclass": {
+        "prefix": "b5placeholderclass",
+        "body": [
+            "placeholder-${1|glow,wave|}",
         ]
     },
     "b5progressbar": {
