@@ -352,7 +352,7 @@
             "\t<ol class=\"breadcrumb\">",
             "\t\t$1",
             "\t</ol>",
-            "</div>"
+            "</nav>"
         ]
     },
     "b5breadcrumbitem": {
@@ -456,7 +456,7 @@
         "body": [
             "<div class=\"collapse${1: collapse-horizontal}\" id=\"$CLIPBOARD\">",
             "\t$2",
-            "</a>"
+            "</div>"
         ]
     },
     "b5dropdownbtn": {
