@@ -704,4 +704,81 @@
         "\t</div>",
     ],
     },
+"b5navbar": {
+    "prefix": "b5navbar",
+    "body": [
+        "<nav class=\"navbar navbar-expand-lg navbar-${1|light,dark|} bg-${2|primary,secondary,success,danger,warning,info,light,dark|}\">",
+        "\t<div class=\"container\">",
+        "\t\t<a class=\"navbar-brand\" href=\"#\">$3</a>",
+        "\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+        "\t\t\t<span class=\"navbar-toggler-icon\"></span>",
+        "\t\t</button>",
+        "\t\t<div class=\"collapse navbar-collapse\" id=\"navbarNav\">",
+        "\t\t\t<ul class=\"navbar-nav ml-auto\">",
+        "\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$4</a>",
+        "\t\t\t\t</li>",
+        "\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$5</a>",
+        "\t\t\t\t</li>",
+        "\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$6</a>",
+        "\t\t\t\t</li>",
+        "\t\t\t</ul>",
+        "\t\t</div>",
+        "\t</div>",
+        "</nav>"
+    ]
+},
+"b5offcanvasnavbar": {
+    "prefix": "b5offcanvasnavbar",
+    "body": [
+        "<nav class=\"navbar navbar-expand-lg navbar-${1|light,dark|} bg-${2|primary,secondary,success,danger,warning,info,light,dark|}\">",
+        "\t<div class=\"container\">",
+        "\t\t<a class=\"navbar-brand\" href=\"#\">$3</a>",
+        "\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+        "\t\t\t<span class=\"navbar-toggler-icon\"></span>",
+        "\t\t</button>",
+        "\t\t<div class=\"offcanvas offcanvas-${4|start,end,top,bottom}\" tabindex=\"-1\" id=\"navbarNav\" aria-labelledby=\"navbarNavLabel\">",
+        "\t\t\t<div class=\"offcanvas-header\">",
+        "\t\t\t\t<h5 class=\"offcanvas-title\" id=\"navbarNavLabel\">$5</h5>",
+        "\t\t\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+        "\t\t\t</div>",
+        "\t\t\t<div class=\"offcanvas-body\">",
+        "\t\t\t\t<ul class=\"navbar-nav\">",
+        "\t\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$6</a>",
+        "\t\t\t\t\t</li>",
+        "\t\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$7</a>",
+        "\t\t\t\t\t</li>",
+        "\t\t\t\t\t<li class=\"nav-item\">",
+        "\t\t\t\t\t\t<a class=\"nav-link\" href=\"#\">$8</a>",
+        "\t\t\t\t\t</li>",
+        "\t\t\t\t</ul>",
+        "\t\t\t</div>",
+        "\t\t</div>",
+        "\t</div>",
+        "</nav>"
+    ]
+}.
+"b5jumbotron": {
+    "prefix": "b5jumbotron",
+    "body": [
+        "<div class=\"jumbotron\">",
+        "\t<h1 class=\"display-${1|1,2,3,4,5,6|}\">$2</h1>",
+        "\t<p class=\"lead\">$3</p>",
+        "\t<p>$4</p>",
+        "</div>"
+    ]
+},
+"b5formgroup": {
+    "prefix": "b5formgroup",
+    "body": [
+        "<div class=\"form-group\">",
+        "\t<label for=\"$1\">$2</label>",
+        "\t<input type=\"${3|text,email,date,number,password,search,tel,file,time|}\" class=\"form-control\" id=\"$1\" placeholder=\"$4\">",
+        "</div>"
+    ]
+},
 }
