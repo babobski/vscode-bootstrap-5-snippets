@@ -1,4 +1,5 @@
-# Bootstrap 5 snippets for visual studio code
+
+# Bootstrap 5 snippets for visual studio code (with Boilerplate)
 
 ## Supported snippets
 
@@ -172,3 +173,78 @@ b5**coloredlink**
   
 b5**ratio**  
 *Expand to a bootstrap ratio div*  
+
+b5**carousel**  
+*Expand to a Bootstrap carousel*  
+  
+b5**form**  
+*Expand to a Bootstrap form*  
+
+b5**formbutton**  
+*Expand to a Bootstrap form button*  
+
+b5**formcheck**  
+*Expand to a Bootstrap form check*  
+
+b5**formfloatinginput**  
+*Expand to a Bootstrap form floating input*  
+
+b5**formfloatingselect**  
+*Expand to a Bootstrap form floating select*  
+
+b5**formfloatingtextarea**  
+*Expand to a Bootstrap form floating textarea*  
+
+b5**formgrange**  
+*Expand to a Bootstrap form range input*  
+
+b5**formhorizontalinput**  
+*Expand to a Bootstrap horizontal form input*  
+
+b5**formhorizontalrange**  
+*Expand to a Bootstrap horizontal form range input*  
+
+b5**formhorizontalselect**  
+*Expand to a Bootstrap horizontal form select*  
+
+b5**formhorizontaltextarea**  
+*Expand to a Bootstrap horizontal form textarea*  
+
+b5**forminput**  
+*Expand to a Bootstrap form input*  
+
+b5**forminputgroup**  
+*Expand to a Bootstrap form input group*  
+
+b5**forminputgrouptextarea**  
+*Expand to a Bootstrap form input group with textarea*  
+
+b5**formradio**  
+*Expand to a Bootstrap form radio input*  
+
+b5**formselect**  
+*Expand to a Bootstrap form select*  
+
+b5**formswitchcheck**  
+*Expand to a Bootstrap form switch check*  
+
+b5**formswitchradio**  
+*Expand to a Bootstrap form switch radio input*  
+
+b5**formtextarea**  
+*Expand to a Bootstrap form textarea*  
+
+b5**htmlboilerplate**  
+*Expand to a Bootstrap HTML boilerplate*  
+
+b5**htmlfullboilerplate**  
+*Expand to a full Bootstrap HTML boilerplate*  
+
+b5**jumbotron**  
+*Expand to a Bootstrap jumbotron*  
+
+b5**navbar**  
+*Expand to a Bootstrap navbar*  
+
+b5**offcanvasnavbar**  
+*Expand to a Bootstrap off-canvas navbar*  
