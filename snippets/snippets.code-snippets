@@ -18,7 +18,7 @@
     "b5container-responsive": {
         "prefix": "b5container-responsive",
         "body": [
-            "<div class=\"container-${1:sm}\">",
+            "<div class=\"container-${1|sm,md,lg,xl,xxl|}\">",
             "\t$0",
             "</div>"
         ]
@@ -254,7 +254,7 @@
     "b5table": {
         "prefix": "b5table",
         "body": [
-            "<table class=\"table ${1| ,table-striped,table-hover,table-bordered,table-borderless,table-sm,table-light,table-dark|}\">",
+            "<table class=\"table ${1| ,table-primary,table-secondary,table-success,table-danger,table-warning,table-info,table-light,table-dark,table-striped,table-striped-columns,table-hover,table-bordered,table-borderless,table-sm,table-light,table-dark|}\">",
             "\t$0",
             "</table>"
         ]
@@ -264,7 +264,7 @@
         "body": [
             "<div class=\"mb-${1:3}\">",
             "\t<label for=\"$4\" class=\"form-label\">$2</label>",
-            "\t<input class=\"form-control\" id=\"$4\" type=\"${3|text,email,date,number,password,search,tel,file,time|}\" placeholder=\"$5\" aria-label=\"$2\">",
+            "\t<input class=\"form-control\" id=\"$4\" type=\"${3|text,email,date,datetime-local,image,month,week,time,url,number,password,search,tel,file|}\" placeholder=\"$5\" aria-label=\"$2\">",
             "</div>"
         ]
     },
@@ -541,7 +541,7 @@
     "b5nav": {
         "prefix": "b5nav",
         "body": [
-            "<ul class=\"nav ${1| ,nav-tabs,nav-pills,nav-fill,nav-justified,flex-column|}\">",
+            "<ul class=\"nav ${1| ,nav-tabs,nav-pills,nav-fill,justify-content-center,justify-content-end,nav-justified,flex-column|}\">",
             "\t<li class=\"nav-item\">",
             "\t\t<a class=\"nav-link${2: active}\" href=\"$3\">$4</a>$0",
             "\t</li>",
@@ -670,7 +670,7 @@
     },
     "b5coloredlink": {
         "prefix": "b5coloredlink",
-        "body": "<a href=\"#$3\" class=\"link-${1|primary,secondary,success,danger,warning,info,light,dark|}\">$2</a>$0"
+        "body": "<a href=\"#$3\" class=\"link-${1|primary,secondary,success,danger,warning,info,light,dark,body-emphasis|}\">$2</a>$0"
     },
     "b5ratio": {
         "prefix": "b5ratio",
@@ -785,7 +785,7 @@
         "body": [
             "<div class=\"row ${1|mb-1,mb-2,mb-3,mb-4,mb-5,mb-6|}\">",
             "\t<label for=\"$2\">$3</label>",
-            "\t<input type=\"${4|text,email,date,number,password,search,tel,file,time|}\" class=\"form-control\" id=\"$2\" placeholder=\"$5\">",
+            "\t<input type=\"${4|text,email,date,datetime-local,image,month,week,time,url,number,password,search,tel,file|}\" class=\"form-control\" id=\"$2\" placeholder=\"$5\">",
             "</div>"
         ]
     },
@@ -795,7 +795,7 @@
             "<div class=\"row ${1|mb-1,mb-2,mb-3,mb-4,mb-5,mb-6|}\">",
             "\t<label for=\"$2\" class=\"col-${3|sm,md,lg,xl,xxl,sm-1,sm-2,sm-3,sm-4,sm-5,sm-6,sm-7,sm-8,sm-9,sm-10,sm-11,sm-12,md-1,md-2,md-3,md-4,md-5,md-6,md-7,md-8,md-9,md-10,md-11,md-12,lg-1,lg-2,lg-3,lg-4,lg-5,lg-6,lg-7,lg-8,lg-9,lg-10,lg-11,lg-12,xl-1,xl-2,xl-3,xl-4,xl-5,xl-6,xl-7,xl-8,xl-9,xl-10,xl-11,xl-12|}\">$4</label>",
             "\t<div class=\"col-${5|sm,md,lg,xl,xxl,sm-1,sm-2,sm-3,sm-4,sm-5,sm-6,sm-7,sm-8,sm-9,sm-10,sm-11,sm-12,md-1,md-2,md-3,md-4,md-5,md-6,md-7,md-8,md-9,md-10,md-11,md-12,lg-1,lg-2,lg-3,lg-4,lg-5,lg-6,lg-7,lg-8,lg-9,lg-10,lg-11,lg-12,xl-1,xl-2,xl-3,xl-4,xl-5,xl-6,xl-7,xl-8,xl-9,xl-10,xl-11,xl-12|}\">",
-            "\t\t<input type=\"${6|text,email,date,number,password,search,tel,file,time|}\" class=\"form-control\" id=\"$2\" placeholder=\"$7\" ${8|required,autofocus,disabled,readonly|} ${9:aria-label=\"$4\"}>",
+            "\t\t<input type=\"${6|text,email,date,datetime-local,image,month,week,time,url,number,password,search,tel,file|}\" class=\"form-control\" id=\"$2\" placeholder=\"$7\" ${8|required,autofocus,disabled,readonly|} ${9:aria-label=\"$4\"}>",
             "\t</div>",
         ]
     },
@@ -823,7 +823,7 @@
         "body": [
             "<div class=\"input-group input-group-${1|sm,lg|} mb-${2|1,2,3,4,5,6|}\">",
             "\t<span class=\"input-group-text\" id=\"${3:basic-addon1}\">$4</span>",
-            "\t<input type=\"${5|text,email,date,number,password,search,tel,file,time|}\" class=\"form-control\" placeholder=\"$6\" aria-label=\"$7\" aria-describedby=\"${3:basic-addon1}\">",
+            "\t<input type=\"${5|text,email,date,datetime-local,image,month,week,time,url,number,password,search,tel,file|}\" class=\"form-control\" placeholder=\"$6\" aria-label=\"$7\" aria-describedby=\"${3:basic-addon1}\">",
             "</div>"
         ]
     },
@@ -930,7 +930,7 @@
         "prefix": "b5formfloatinginput",
         "body": [
             "<div class=\"form-floating mb-${1|1,2,3,4,5,6|}\">",
-            "\t<input type=\"${2|text,email,date,number,password,search,tel,file,time|}\" class=\"form-control\" id=\"$3\" placeholder=\"$6\" ${5:aria-label=\"$4\"}>",
+            "\t<input type=\"${2|text,email,date,datetime-local,image,month,week,time,url,number,password,search,tel,file|}\" class=\"form-control\" id=\"$3\" placeholder=\"$6\" ${5:aria-label=\"$4\"}>",
             "\t<label for=\"$3\">$4</label>",
             "</div>"
         ]
@@ -960,16 +960,16 @@
         "prefix": "b5htmlboilerplate",
         "body": [
             "<!DOCTYPE html>",
-            "<html lang=\"en\">",
+            "<html lang=\"${0:en}\" data-bs-theme=\"${1|auto,dark,light|}\">",
             "<head>",
             "\t<meta charset=\"UTF-8\">",
             "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
             "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-            "\t<title>$1</title>",
+            "\t<title>$2</title>",
             "\t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css\">",
             "</head>",
-            "<body data-bs-theme=\"${2|auto,dark,light|}\">",
-            "\t$0",
+            "<body>",
+            "\t$3",
             "\t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js\"></script>",
             "</body>",
             "</html>"
@@ -979,15 +979,15 @@
         "prefix": "b5htmlfullboilerplate",
         "body": [
             "<!DOCTYPE html>",
-            "<html lang=\"en\">",
+            "<html lang=\"${0:en}\" data-bs-theme=\"${1|auto,dark,light|}\">",
             "<head>",
             "\t<meta charset=\"UTF-8\">",
             "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
             "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-            "\t<title>$1</title>",
+            "\t<title>$2</title>",
             "\t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css\">",
             "</head>",
-            "<body data-bs-theme=\"${2|auto,dark,light|}\">",
+            "<body>",
             "\t<header>",
             "\t$3",
             "\t</header>",
